@@ -17,8 +17,8 @@ var controller = botkit.slackbot({
     scopes: ['bot']
 });
 
-var tokens = ['bot-tokens'];
-storage.lrange('bot-tokens', 0, -1, function(error, reply) {
+var tokens = ['xoxb-138321506146-PKkI0zSWDfhJoaKC0Fi6Gwh7'];
+storage.lrange('xoxb-138321506146-PKkI0zSWDfhJoaKC0Fi6Gwh7', 0, -1, function(error, reply) {
 
     if (error || !reply) {
         console.log('Error: ' + error);
