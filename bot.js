@@ -10,7 +10,7 @@ var storage = redis.createClient({
 });
 
 var controller = botkit.slackbot({
-    debug: false
+    debug: true
 }).configureSlackApp({
     clientId: process.env.SLACKAPP_CLIENT_ID,
     clientSecret: process.env.SLACKAPP_CLIENT_SECRET,
